@@ -1,0 +1,229 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+#arrow-up{
+    position: fixed;
+    right: 4px;
+    bottom: 50px;
+    color: white;
+}
+#arrow-down{
+    position: fixed;
+    right: 4px;
+    bottom: 10px;
+    color: white;
+}
+.arrows i{
+    font-size: 3em;
+}
+.btn:active{
+    box-shadow: inset 0 0px 0px;
+}
+
+.arrows i:hover{
+    transform: scale(1.05,1.05);
+}
+.panel{
+    border:0px;
+    width: 50%;
+}
+ul img{
+    margin: 40px 20px 0 20px;
+}
+.text {
+    position: fixed;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.lines-heading-left{
+    position: relative;
+    top: -16px;
+    left: 0%;
+}
+.lines-heading-right{
+    position: relative;
+    top: -15px;
+    right: 0%;
+}
+    .parallax-1{
+    height: 101%;
+    background: url(bg.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+    .parallax-2{
+        height: 180%;
+        background:fixed;
+        margin-left: 120px;
+        background-color: white;
+    }
+    .parallax-3{
+        height: 60%;
+        background: fixed;
+        background-color: #eee;
+    }
+    .parallax-4{
+        height: 60%;
+        background: fixed;
+         
+    }
+    .parallax-2 div.panel-heading span{
+    font-size: 1.8em;
+    color: #37c;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    }
+    .parallax-2 div.panel-heading p.sub-heading{
+        font-size: 1.4em;
+        color: #75a32f;
+        font-family: 'Arimo', sans-serif;
+    }
+
+    .parallax-2 div,.parallax-3 div,.parallax-4 div{
+        display: inline-block;
+    }
+    .caption-1{
+    font-family: 'Nanum Pen Script', cursive;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    }
+    .caption-1 span.border {
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-size: 7em;
+    position: relative;
+}
+.caption-2{
+    font-family: 'Permanent Marker', cursive;
+    color: #fff;
+    font-size: 6em;
+    position: relative;
+    top: 40%;
+    left: 20%;
+    text-shadow: 2 0 2 black;
+}
+.info-card {
+    margin: 10px;
+    -webkit-perspective: 400px;
+}
+
+.name{
+    margin-top: 15px;
+    text-shadow: 2px 2px #072c61;
+}
+.back-name{
+    font-family: 'Lato',sans-serif;
+    font-size: 2em;
+    color: #072c61;
+}
+.back-image{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.about-me{
+    align-content: center;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.front, .back {
+    background: #eee;
+    border-radius: 10px;
+    transition: -webkit-transform 0.6s;
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+}
+
+.front {
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: 1;
+}
+
+.back {
+    padding: 20px;
+    padding-top: 0px;
+    width: 150px;
+    height: 150px;
+    -webkit-transform: rotateY(-180deg);
+    overflow: hidden;
+}
+
+.info-card:hover .back {
+    -webkit-transform: rotateY(0);
+}
+
+.info-card:hover .front {
+    -webkit-transform: rotateY(180deg);
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+    overflow: hidden;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.checked{
+    color: orange;
+}
+.about-me b{
+    font-size: 1.2em;
+    font-family: 'Merriweather', serif;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  animation-delay: 0.1s;
+}
