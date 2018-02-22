@@ -67,9 +67,17 @@ ul img{
         background-color: #eee;
     }
     .parallax-4{
-        height: 60%;
+        height: 80%;
         background: fixed;
-         
+    }
+    .parallax-5{
+        height: 100%;
+        background: fixed;
+        background:repeating-radial-gradient(#c2d2ed,#fff);
+        border-left:10px solid #072c61;
+        border-right:10px solid #072c61;
+        border-bottom: 2px solid #072c61;
+
     }
     .parallax-2 div.panel-heading span{
     font-size: 1.8em;
@@ -83,7 +91,7 @@ ul img{
         font-family: 'Arimo', sans-serif;
     }
 
-    .parallax-2 div,.parallax-3 div,.parallax-4 div{
+    .parallax-2 div,.parallax-3 div,.parallax-4 div,.parallax-5 div{
         display: inline-block;
     }
     .caption-1{
@@ -227,3 +235,87 @@ ul img{
   animation-name: fadeInUp;
   animation-delay: 0.1s;
 }
+.parallax-4 i{
+        margin-top: 10px;
+        font-size: 5em;
+        opacity: 0;
+        margin-left: 10px;
+    }
+    .parallax-4 span{
+        opacity: 0;
+    }
+    .glyphicon-arrow-right,.glyphicon-arrow-left,.glyphicon-arrow-down{
+        padding: 5px 20px 10px 5px;
+    }
+    .glyphicon{
+        top: 15px;
+    }
+    .parallax-4 .panel{
+        border:2px solid #072c61;
+        opacity: 0;
+    }
+    #music,#trophy,#b-cake,#cap,#university,#user{
+        text-shadow: 0 5px 5px grey;
+    }
+    .parallax-4 .panel-heading{
+        color: #072c61;
+        font-size: 1.003em;
+    }
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  animation-delay: 0.1s;
+}
+.system{
+        position: relative;
+        left: 20%;
+    }
+    .system ul{
+        margin-top: 60px;
+        list-style: none;
+        font-size: 2em;
+    }
+    .system ul li{
+        padding: 10px;
+        color: #072c61;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px grey;
+    }
+    .user_image{
+        position: absolute;
+        right: 45%;
+        bottom: 10%;
+        opacity: 0;
+    }
+    .user_image img{
+        border-radius: 90px;
+        height: 180px;
+        width: 180px;
+        border: 2px solid white;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(90%);
+    }
+    .user_image img:hover{
+        filter: grayscale(50%);
+    }
+
+    .parallax-4 .panel-heading{
+        font-family: 'Oswald', sans-serif;
+        
+        font-size: 1.2em;
+    }
