@@ -1,5 +1,4 @@
-$('.name').hide();
-$('.name').css("opacity","0");
+
     window.onload = function(){
     var $name = $('.name');
     
@@ -35,8 +34,7 @@ $('.name').css("opacity","0");
     $('#tab-4').css("opacity","0");
     $('#tab-5').css("opacity","0");
     
-    $name.hide();
-
+    
     var bg1_text = document.querySelector('.border');
     var s = "Hey, I'm";
     var i=0;
@@ -65,6 +63,7 @@ $('.name').css("opacity","0");
     };
 
     function printWelcome(){
+        $('.name').removeClass("hide");
         printstring(s);
         $('.name').delay(1500).fadeIn(800,"swing"); 
         $('.user_image').addClass("animated").addClass("fadeInUp");    

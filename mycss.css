@@ -477,6 +477,11 @@ position: relative; top: 20px;
     letter-spacing: 1;
     font-size: 1.05em;
 }
+.content b{
+    color: #072c61;
+    font-weight: 400;
+    text-decoration: underline;
+}
 
 /*Media Queries*/
 @media screen and (max-width:1099px){
