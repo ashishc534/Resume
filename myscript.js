@@ -1,5 +1,7 @@
-
     window.onload = function(){
+    
+    setTimeout(function(){document.body.style.opacity="100";},500);
+
     var $name = $('.name');
     
     var $wrapper_2 = $('.wrapper-2');
@@ -61,10 +63,11 @@
         printchar();
 
     };
-
+    $('.name').hide();
     function printWelcome(){
-        $('.name').removeClass("hide");
+        
         printstring(s);
+
         $('.name').delay(1500).fadeIn(800,"swing"); 
         $('.user_image').addClass("animated").addClass("fadeInUp");    
     }
