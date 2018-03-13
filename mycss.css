@@ -65,6 +65,7 @@ background-size: cover;
     height: 60%;
     background: fixed;
     background-color: #eee;
+    margin-top: 6%;
 }
 .parallax-4{
     height: 80%;
@@ -377,4 +378,290 @@ background-color: #00aced;
 .footer{
 background-color: #FED766;
 height: 60px;
+}
+.p2h1_1{
+position: absolute; left: 23%;
+}
+#container-1{
+margin-top: 20px;
+}
+#container-2{
+margin-top: -150px;
+}
+#container-1 img{
+margin-top: 50px; margin-left: 15px;
+}
+.p2_panel_1,.p2_panel_2{
+margin-top: 90px;
+}
+.p2_panel_heading_1,.p2_panel_heading_2{
+width: 200%;
+}
+.contaier_2_div_1{
+margin-right: -120px;
+margin-left: 80px;
+}
+.p2_panel_2{
+margin-top: 140px;
+}
+#container-2_mobile,#container-4_mobile{
+display: none;
+}
+#container-3{
+margin-top: -100px;
+}
+#container-3 img{
+ margin-top: 30px;
+margin-left: 40px;
+}
+.p2_panel_3{
+margin-top: 90px;
+}
+.p2-panel_3_heading{
+width: 180%;
+}
+.p2-panel_3_body{
+word-wrap: break-word; width: 180%;
+}
+#wrapper-3-row{
+margin-top: 6%;
+}
+.wrapper-3{
+margin-left: 50px;
+}
+.p3_h1_1{
+position: relative; top: 30px;
+font-size: 36px;
+}
+#wrapper-3-row_mobile{
+display: none;
+}
+.wrapper-4{
+margin-left: 60px;
+}
+.wrapper-4 h1{
+position: relative; top: 20px;
+}
+.phase{
+ margin-top: 60px;
+}
+#b-cake{
+color: #e89547;
+}
+#phase-panel-1{
+width:20%; margin-left: 10px;"
+}
+#phase-panel-1 .panel-heading{
+height: 15%;
+}
+#music{
+color: blue; font-size: 5em; margin-top: 10px; 
+}
+#phase-panel-2{
+width: 20%; margin-left: 10px;
+}
+#trophy{
+color: #4ce051;
+}
+#phases_of_life_mobile{
+display: none;  
+}
+.wrapper-5{
+margin-left: 60px;
+}
+.wrapper-5 h1{
+position: relative; top: 20px;
+}
+.content{
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 1;
+    font-size: 1.05em;
+}
+
+/*Media Queries*/
+@media screen and (max-width:1099px){
+
+.parallax-1{
+width: 100%;
+background-color: black;
+}
+.user_image img{
+    margin-right: 15px;
+}
+.caption-1{
+    font-size: 0.9em;
+    left: 12%;
+}
+.caption-2{
+    left: 10%;
+    top: 40%;
+    font-size: 2.6em;
+}
+.user_image{
+    bottom: 10%;
+    right: 24%;
+}
+.parallax-2{
+    margin:0;
+}   
+.parallax-2 div{
+    display: block;
+}
+.p2h1_1{
+    position: sticky;
+    left: 5%;
+    font-size: 2.2em;
+}
+.lines-heading-left,.lines-heading-right{
+    opacity: 0;
+}
+#container-1{
+    margin-top: 0px;
+}
+#container-1 img{
+    height: 200px;
+    width: 200px;
+    margin:1 1 1 20%;
+}
+.p2_panel_1{
+margin-top: 0px;
+margin-left: 25px;
+}
+.p2_panel_heading_1{
+width: 180%;
+}
+.p2_panel_heading_1 p{
+    margin-left: 1px;
+    opacity: 0.9;
+}
+.p2_panel_2{
+margin-top: 300px;
+margin-left: 0px;
+}
+#container-2,#container-4{
+    display: none;
+}
+#container-2_mobile,#container-4_mobile{
+    display: block;
+}
+#container-2_mobile .contaier_2_div_1{
+    margin-right: 0px;
+    margin-left: 35px;
+    width: 93%;
+}
+#container-2_mobile .p2_panel_2 {
+    margin-top: -20px;
+}
+#container-3{
+margin: -50px 0;
+}
+#container-3 img{
+margin-left:13%;
+margin-top: -10px;
+width: 250px;
+height: 250px;
+}
+.p2_panel_3{
+margin-top: -20px;
+margin-left: 20px;
+}
+.p2-panel_3_heading{
+width: 180%;
+}
+.p2-panel_3_body{
+word-wrap: break-word; width: 200%;
+}
+#container-4_mobile img{
+    height: 200px;
+    width: 200px;
+    margin-right: -100px; 
+}
+#wrapper-3-row{
+    margin: 0;
+}
+.parallax-3{
+    margin-top: 240%;
+    height: 50%;
+}
+.wrapper-3{
+margin:0px;
+}
+.p3_h1_1{
+position: relative;
+left: -1px;
+font-size: 25px;
+}
+#wrapper-3-row{
+display: none;
+}
+#wrapper-3-row_mobile{
+display: block;
+margin: 50 30;
+}
+.wrapper-4{
+margin: 0;
+}
+.wrapper-4 h1{
+position: relative; top: 0px;
+left: 10px;
+font-size: 26px;
+margin-bottom: 15px;
+}
+.phase{
+ margin-top: 0px;
+}
+#b-cake{
+color: #e89547;
+font-size: 2em;
+}
+#phase-panel-1{
+width:50%; margin-left: 10px;
+}
+#phase-panel-1 .panel-heading{
+height: 17%;
+}
+.glyphicon-arrow-right,.glyphicon-arrow-left,.glyphicon-arrow-down{
+    display: none;
+}
+#phases_of_life{
+    display: none;
+}
+#phases_of_life_mobile{
+display: block; 
+}
+#phases_of_life_mobile i{
+    text-shadow: 1px 4px grey;
+}
+#wrapper_4_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#wrapper_4_container_mobile i{
+    opacity: 1;
+}
+#tab-5{
+    margin-top: 200px;
+    height: 80%;
+}
+.arrows{
+    display: none;
+}
+.wrapper-5{
+margin-left: 0px;
+}
+.wrapper-5 h1{
+    position: relative; top: 0px;
+    font-size: 26px;
+    left: -5px;
+    margin-bottom: 20px;
+}
+.system{
+    left: 0;
+}
+.system ul {
+    font-size: 1.5em;
+    margin: 0 0 0 -20;
+
+}
 }

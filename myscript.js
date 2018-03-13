@@ -1,4 +1,5 @@
 $('.name').hide();
+$('.name').css("opacity","0");
     window.onload = function(){
     var $name = $('.name');
     
